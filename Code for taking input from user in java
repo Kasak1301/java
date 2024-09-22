@@ -1,0 +1,46 @@
+#MAIN INTRO LINE 
+
+public class Main {
+    public static void main (String[] args){
+        Scanner scn = new Scanner(System.in);
+#WANT AN INTEGER AS INPUT FROM THE USER 
+int n= scn.nextInt();
+
+#WANT AN STRING AS INPUT FROM THE USER 
+String name = scn.nextLine();
+#WANT AN INTEGER AND STRING AS INPUT FROM THE USER 
+int n = Integer.parseInt(scn.nextLine());
+String name = scn.nextLine();
+#QUES TAKE INPUT FROM USER FIRST NO. THEN NAME AND PRINT 
+HELLO NAME HERE'S YOUR COUNTING 
+
+CODE -----------
+import java.util.Scanner;
+
+public class Main {
+    public static void main (String[] args){
+        Scanner scn = new Scanner(System.in);
+        int n = Integer.parseInt(scn.nextLine());
+        String name = scn.nextLine();
+        System.out.println("hello "+name+" here's your counting");
+        for (int i=0; i<=n;i++){
+            System.out.println(i);
+        }
+    }
+}
+
+OUTPUT--------------------------------
+10
+Kasak
+hello Kasak here's your counting
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
