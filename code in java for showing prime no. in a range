@@ -1,0 +1,37 @@
+ import java.util.Scanner;
+
+
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scn = new Scanner(System.in);
+        System.out.println("what is the starting point-");
+        int low = scn.nextInt();
+        System.out.println("what is the ending point-");
+        int high = scn.nextInt();
+        for (int i = low; i<= high; i++)
+        {
+            int count =0;
+            for (int d=2;d*d<=i;d++)
+            {
+                if (i % d==0) {
+                    count++;
+                }
+            }
+            if(count==0) {
+                System.out.println(i);
+            }
+        }
+    }
+}
+OUTPUT--------------------------
+what is the starting point-
+2
+what is the ending point-
+10
+2
+3
+5
+7
+
+Process finished with exit code 0
