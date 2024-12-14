@@ -1,0 +1,24 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner scn= new Scanner(System.in);
+        int n = scn.nextInt();
+        int temp = n;
+        int count=0;
+        while (temp!=0){
+            temp=temp/10;
+            count++;
+        }
+        int d= (int)Math.pow(10,count-1);
+        int sum =0;
+        while(d!=0){
+            int q=n%10;
+            int m = q*d;
+            System.out.println(m);
+            sum += m;
+            n=n/10;
+            d=d/10;
+        }
+        System.out.println(sum);
+    }
+}
