@@ -1,0 +1,24 @@
+import java.util.*;
+public class Main{
+    public static int getfrequency (int n, int r){
+        int rv=0;
+        while(n>0){
+            int dig= n%10;
+            n=n/10;
+            if (dig== r){
+                rv++;
+            }
+        }
+        return rv;
+    }
+    public static void main(String[]args){
+        Scanner scn= new Scanner(System.in);
+        System.out.println("please enter the number");
+        int n = scn.nextInt();
+        System.out.println("please enter the digit");
+        int r = scn.nextInt();
+        int f= getfrequency (n,r);
+        System.out.println(f);
+    }
+
+}
