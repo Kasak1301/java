@@ -1,0 +1,33 @@
+import java.util.*;
+public class Main{
+    public static int getnewnumber (int n1, int gbase, int n2){
+        int rv=0;
+        int p =1;
+        int c=0;
+        while(n1>0||n2>0||c>0){
+            int dig1= n1 % 10;
+            int dig2= n2 % 10;
+            n1=n1 / 10;
+            n2=n2 / 10;
+            int d = dig1 + dig2 +c ;
+            c=d/gbase;
+            d=d% gbase;
+
+            rv+=d*p;
+            p=p*10;
+
+        }
+        return rv;
+    }
+    public static void main(String[]args){
+        Scanner scn= new Scanner(System.in);
+        System.out.println("please enter the no.1");
+        int n1 = scn.nextInt();
+        System.out.println("please enter the base of the given no.");
+        int gbase = scn.nextInt();
+        System.out.println("please enter the no.2");
+        int n2 = scn.nextInt();
+        int dtob= getnewnumber (n1,gbase,n2);
+        System.out.println(dtob);
+    }
+}
