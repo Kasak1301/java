@@ -1,0 +1,28 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Stack<Character> st =new Stack<>();
+        Scanner scn =new Scanner(System.in);
+        System.out.print("Enter the number of character you want to add");
+        String n = scn.nextLine();
+        for(int i = 0; i< n.length();i++) {
+            char r = n.charAt(i);
+            if (r == ')') {
+                if(st.peek()=='('){
+                    System.out.println(true);
+                    return;
+                }else{
+                    while(st.peek() !='('){
+                        st.pop();
+                    }
+                    st.pop();
+                }
+            }
+            else {
+                st.push(r);
+            }
+        }
+        System.out.println(false);
+    }
+}
