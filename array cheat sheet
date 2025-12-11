@@ -1,0 +1,89 @@
+✅ WHEN should “Binary Search” click in your mind?
+
+There are 4 signals.
+If you see any one of these, binary search is very likely the intended solution.
+
+📌 1. The array is said to be “sorted”, “rotated sorted”, or “nearly sorted”
+
+LC 153 keyword:
+
+“Given a rotated sorted array … find the minimum.”
+
+🧠 Sorted + Rotated = Hidden sorted structure
+Whenever you see these words:
+
+sorted
+
+rotated sorted
+
+mountain array
+
+bitonic
+
+monotonic
+
+first increasing then decreasing
+
+Your brain should IMMEDIATELY think:
+
+👉 Binary Search
+
+Because rotation only breaks the sorted order at one point, and finding that pivot is exactly binary search.
+
+📌 2. The expected time complexity is given as O(log n)
+
+If they say:
+
+Solve in O(log n)
+or
+“optimized”, “efficient”, “faster than linear”
+
+This ALWAYS means:
+
+👉 Binary Search or Divide & Conquer
+
+For LC 153 and LC 33:
+
+brute force = O(n)
+
+expected = O(log n)
+
+This is a giveaway.
+
+📌 3. You are searching for a boundary / pivot / change point
+
+Binary search naturally finds points like:
+
+first element that satisfies a condition
+
+point where order breaks
+
+pivot in a rotated array
+
+So if problem asks:
+
+“Find the first …”
+
+“Find the smallest …”
+
+“Find where array changes …”
+
+“Find rotation point …”
+
+These are CLASSIC binary-search-on-answer situations.
+
+📌 4. The array is too large for linear scanning
+
+If constraints are like:
+
+n ≤ 10^5 or 10^6
+Time limit is strict
+
+
+Then:
+
+O(n) may pass
+
+but O(n log n) or O(n²) definitely won’t
+
+If expected optimal is O(log n) → binary search.
