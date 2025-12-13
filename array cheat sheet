@@ -87,3 +87,28 @@ O(n) may pass
 but O(n log n) or O(n²) definitely won’t
 
 If expected optimal is O(log n) → binary search.
+
+
+⭐ WHAT is “Binary Search on Answer”?
+
+Normally, binary search is used on sorted arrays.
+
+But in many problems, the answer itself lies in a numeric range, like:
+
+speed
+
+time
+
+capacity
+
+distance
+
+cost
+
+threshold
+
+And for every candidate answer, we can write a function:
+
+check(mid) → tells whether this mid (speed/capacity/etc.) works or not.
+
+So instead of searching in an array, we search in the range of possible answers.
