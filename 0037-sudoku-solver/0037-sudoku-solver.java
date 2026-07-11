@@ -1,0 +1,69 @@
+class Solution {
+
+    public void solveSudoku(char[][] board) {
+        solve(board);
+    }
+
+    public boolean solve(char[][] board) {
+
+        // Find the first empty cell
+        for (int row = 0; row < 9; row++) {
+            for (int col = 0; col < 9; col++) {
+
+                if (board[row][col] == '.') {
+
+                    // Try every digit
+                    for (char num = '1'; num <= '9'; num++) {
+
+                        if (isSafe(row, col, num, board)) {
+
+                            // Place the number
+                            board[row][col] = num;
+
+                            // Solve the remaining board
+                            if (solve(board))
+                                return true;
+
+                            // Backtrack
+                            board[row][col] = '.';
+                        }
+                    }
+
+                    // None of the numbers worked
+                    return false;
+                }
+            }
+        }
+
+        // No empty cell found -> Sudoku solved
+        return true;
+    }
+
+    public boolean isSafe(int row, int col, char num, char[][] board) {
+
+        // Check entire row
+        for (int j = 0; j < 9; j++) {
+            if (board[row][j] == num)
+                return false;
+        }
+
+        // Check entire column
+        for (int i = 0; i < 9; i++) {
+            if (board[i][col] == num)
+                return false;
+        }
+
+        // Check 3x3 box
+        int startRow = (row / 3) * 3;
+        int startCol = (col / 3) * 3;
+
+        for (int i = startRow; i < startRow + 3; i++) {
+            for (int j = startCol; j < startCol + 3; j++) {
+                if (board[i][j] == num)
+                    return false;
+            }
+        }
+
+        return true;
+    }
+}
