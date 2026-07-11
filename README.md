@@ -14,10 +14,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Kasak1301/java/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0051-n-queens](https://github.com/Kasak1301/java/tree/master/0051-n-queens) |
 | [0079-word-search](https://github.com/Kasak1301/java/tree/master/0079-word-search) |
 ## Array
 |  |
 | ------- |
+| [0051-n-queens](https://github.com/Kasak1301/java/tree/master/0051-n-queens) |
 | [0079-word-search](https://github.com/Kasak1301/java/tree/master/0079-word-search) |
 ## Depth-First Search
 |  |
