@@ -33,4 +33,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0037-sudoku-solver](https://github.com/Kasak1301/java/tree/master/0037-sudoku-solver) |
 | [0079-word-search](https://github.com/Kasak1301/java/tree/master/0079-word-search) |
+## Math
+|  |
+| ------- |
+| [1922-count-good-numbers](https://github.com/Kasak1301/java/tree/master/1922-count-good-numbers) |
+## Recursion
+|  |
+| ------- |
+| [1922-count-good-numbers](https://github.com/Kasak1301/java/tree/master/1922-count-good-numbers) |
 <!---LeetCode Topics End-->
