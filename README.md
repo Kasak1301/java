@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/Kasak1301/java/tree/master/0029-divide-two-integers) |
 | [0231-power-of-two](https://github.com/Kasak1301/java/tree/master/0231-power-of-two) |
 | [1922-count-good-numbers](https://github.com/Kasak1301/java/tree/master/1922-count-good-numbers) |
 ## Recursion
@@ -46,5 +47,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/Kasak1301/java/tree/master/0029-divide-two-integers) |
 | [0231-power-of-two](https://github.com/Kasak1301/java/tree/master/0231-power-of-two) |
 <!---LeetCode Topics End-->
