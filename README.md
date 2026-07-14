@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0051-n-queens](https://github.com/Kasak1301/java/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/Kasak1301/java/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Kasak1301/java/tree/master/0079-word-search) |
+| [0204-count-primes](https://github.com/Kasak1301/java/tree/master/0204-count-primes) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0029-divide-two-integers](https://github.com/Kasak1301/java/tree/master/0029-divide-two-integers) |
+| [0204-count-primes](https://github.com/Kasak1301/java/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/Kasak1301/java/tree/master/0231-power-of-two) |
 | [1922-count-good-numbers](https://github.com/Kasak1301/java/tree/master/1922-count-good-numbers) |
 ## Recursion
@@ -53,4 +55,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/Kasak1301/java/tree/master/0078-subsets) |
 | [0231-power-of-two](https://github.com/Kasak1301/java/tree/master/0231-power-of-two) |
 | [2220-minimum-bit-flips-to-convert-number](https://github.com/Kasak1301/java/tree/master/2220-minimum-bit-flips-to-convert-number) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Kasak1301/java/tree/master/0204-count-primes) |
+## Number Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Kasak1301/java/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
