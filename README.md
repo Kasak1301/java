@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Kasak1301/java/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0020-valid-parentheses](https://github.com/Kasak1301/java/tree/master/0020-valid-parentheses) |
 | [0079-word-search](https://github.com/Kasak1301/java/tree/master/0079-word-search) |
 ## Backtracking
 |  |
@@ -63,4 +64,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/Kasak1301/java/tree/master/0204-count-primes) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/Kasak1301/java/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
