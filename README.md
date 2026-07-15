@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/Kasak1301/java/tree/master/0079-word-search) |
 | [0204-count-primes](https://github.com/Kasak1301/java/tree/master/0204-count-primes) |
 | [0496-next-greater-element-i](https://github.com/Kasak1301/java/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Kasak1301/java/tree/master/0503-next-greater-element-ii) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -71,8 +72,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/Kasak1301/java/tree/master/0020-valid-parentheses) |
 | [0496-next-greater-element-i](https://github.com/Kasak1301/java/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Kasak1301/java/tree/master/0503-next-greater-element-ii) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/Kasak1301/java/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Kasak1301/java/tree/master/0503-next-greater-element-ii) |
 <!---LeetCode Topics End-->
