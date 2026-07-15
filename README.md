@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Kasak1301/java/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0037-sudoku-solver](https://github.com/Kasak1301/java/tree/master/0037-sudoku-solver) |
+| [0496-next-greater-element-i](https://github.com/Kasak1301/java/tree/master/0496-next-greater-element-i) |
 ## String
 |  |
 | ------- |
@@ -28,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/Kasak1301/java/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Kasak1301/java/tree/master/0079-word-search) |
 | [0204-count-primes](https://github.com/Kasak1301/java/tree/master/0204-count-primes) |
+| [0496-next-greater-element-i](https://github.com/Kasak1301/java/tree/master/0496-next-greater-element-i) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -68,4 +70,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Kasak1301/java/tree/master/0020-valid-parentheses) |
+| [0496-next-greater-element-i](https://github.com/Kasak1301/java/tree/master/0496-next-greater-element-i) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/Kasak1301/java/tree/master/0496-next-greater-element-i) |
 <!---LeetCode Topics End-->
